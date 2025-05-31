@@ -14,28 +14,36 @@ To create a class named 'Student' with String variable 'name' and String variabl
 8.	Print the value of 'name' and 'address' variables of the 'obj' object
 9.	End
 
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SAKTHI PRIYA D
+RegisterNumber:  212222040139
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+class Student
+{
+    String name;
+    String address;
+}
+public class Main
+{
+    public static void main(String[] args)
+   {
+        Student obj= new Student();        
+        obj.name="John";
+        obj.address="Chennai";
+        System.out.println(obj.name+" "+obj.address);
+    }
+}
+```
 
 ## OUTPUT:
-
-
+![image](https://github.com/user-attachments/assets/c903ab8d-32bc-4b55-a15e-2c7315467484)
 
 ## RESULT:
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
