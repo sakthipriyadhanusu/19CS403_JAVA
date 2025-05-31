@@ -25,12 +25,29 @@
  ```
 /*
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SAKTHI PRIYA D
+RegisterNumber: 212222040139
 */
 ```
 
 ## Sourcecode.java:
+```
+   import java.util.*;
+    public class Multi extends Thread
+    {  
+        Scanner sc=new Scanner(System.in);
+        
+    public void run()
+    {  
+        int count=sc.nextInt();
+        System.out.println("Thread Count: " +count);  
+    }  
+    public static void main(String args[]){  
+    Multi t1=new Multi();  
+    t1.start();  
+     }  
+    }
+```
 
 
 
@@ -39,6 +56,10 @@ RegisterNumber:
 
 
 ## OUTPUT:
+
+
+![image](https://github.com/user-attachments/assets/beb2ddeb-5bcb-49e5-82e6-f4117b7775c1)
+
 
 
 
