@@ -19,21 +19,29 @@
  ```
 /*
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SAKTHI PRIYA D
+RegisterNumber: 212222040139 
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+     FileOutputStream fout=new FileOutputStream("sample.txt");    
+     BufferedOutputStream bout=new BufferedOutputStream(fout);  
+     Scanner sc=new Scanner(System.in);
+     String s=sc.nextLine();    
+     byte b[]=s.getBytes();    
+     bout.write(b);    
+    
+     bout.close();    
+     fout.close();
+```  
+      
 
 ## OUTPUT:
 
+
+![image](https://github.com/user-attachments/assets/a0835bb5-cb94-4ea3-b59b-83729d6651ec)
 
 
 ## RESULT:
