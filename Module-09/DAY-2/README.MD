@@ -17,21 +17,43 @@ To create a java program to write data using ByteArrayOutputStream.
  ```
 /*
 Program to implement a BYTE ARRAY I/O using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SAKTHI PRIYA D
+RegisterNumber: 212222040139 
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.io.*;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
 
+    
+     Scanner sc=new Scanner(System.in);
+     String data =sc.nextLine();
+    try {
+      ByteArrayOutputStream out = new ByteArrayOutputStream();
+      byte[] array = data.getBytes();
 
+      out.write(array,2,7);
 
+      String streamData = out.toString();
+      System.out.println("Original data: " + data);
+      System.out.println("Output stream: " + streamData);
+      out.close();
+    }
 
-
-
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/a47dcf53-2f26-4255-9179-79c3de038e47)
 
 
 ## RESULT:
