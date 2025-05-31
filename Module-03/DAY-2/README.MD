@@ -14,31 +14,40 @@ To develop a java program use append() method concatenates the given argument wi
 6.	Print the concatenated result from `sb`
 7.	End
 
-
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a String Buffer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: SAKTHI PRIYA D 
+RegisterNumber: 212222040139 
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class StringBufferExample{  
+public static void main(String args[]){  
+Scanner sc=new Scanner(System.in);
+String str1=sc.nextLine();
+String str2=sc.nextLine();
+StringBuffer sb=new StringBuffer(str1+" ");  
+sb.append(str2);  
+System.out.println(sb);  
+}  
+}  
+```
 
 ## OUTPUT:
+```
+Input         Expected       Got
 
+Hello         Hello Java     Hello Java
+Java 
+
+Hi            Hi Welcome     Hi Welcome
+Welcome
+```
 
 
 ## RESULT:
